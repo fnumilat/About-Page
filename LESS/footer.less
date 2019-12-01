@@ -1,0 +1,68 @@
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: @purpleblue;
+    width: 100%;
+
+    h2 {
+        width: 50%;
+        font-size: 50px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: @white;
+        margin-left: 26%;
+
+        @media @mobile {
+            width: 100%;
+            font-size: 40px;
+            text-align: center;
+            margin-left: 0%;
+            background: red;
+            // border-radius: 10px;
+            margin-top: 2%;
+        }
+    }
+
+    .social-buttons {
+        display: flex;
+        flex-direction: row;
+        margin-left: -5%;
+
+        @media @mobile {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left: -16%;
+        }
+
+        .fa {
+            padding: 30px 150px;
+            color: @white;
+            font-size: 50px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+
+            @media @mobile {
+                font-size: 40px;
+                padding: 20px 110px;
+            }
+
+            :hover {
+                opacity: 1;
+                color: @lightgreen;
+              }
+
+        }
+
+        .fa-youtube {
+
+            @media @mobile {
+                margin-left: 20%;
+            }
+        }
+    }
+}
