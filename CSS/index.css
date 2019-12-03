@@ -260,21 +260,21 @@ header .header-section img {
 .footer-section .social-buttons {
   display: flex;
   flex-direction: row;
-  margin-left: 23.5%;
+  margin-left: 37%;
 }
 @media (max-width: 500px) {
   .footer-section .social-buttons {
     display: flex;
     flex-direction: row;
-    width: 100%;
     margin-left: 1%;
   }
 }
 .footer-section .social-buttons .fa {
-  padding: 10px 80px;
+  padding: 5px 40px;
+  padding-bottom: 20px;
+  padding-left: 5px;
   color: #FFFFFF;
   font-size: 50px;
-  width: 100px;
   text-align: center;
   text-decoration: none;
 }
