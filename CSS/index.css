@@ -272,7 +272,7 @@ header .header-section img {
 }
 @media (max-width: 363px) {
   .footer-section .social-buttons {
-    margin-left: 8.5%;
+    margin-left: 8%;
   }
 }
 .footer-section .social-buttons .fa {
