@@ -261,7 +261,7 @@ footer h2 {
 footer .social-buttons {
   display: flex;
   flex-direction: row;
-  margin-left: -5%;
+  margin-left: 23.5%;
 }
 @media (max-width: 500px) {
   footer .social-buttons {
@@ -273,7 +273,7 @@ footer .social-buttons {
   }
 }
 footer .social-buttons .fa {
-  padding: 30px 150px;
+  padding: 20px 80px;
   color: #FFFFFF;
   font-size: 50px;
   width: 50px;
