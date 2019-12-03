@@ -270,9 +270,9 @@ header .header-section img {
     margin-left: 18%;
   }
 }
-@media (max-width: 368px) {
+@media (max-width: 363px) {
   .footer-section .social-buttons {
-    margin-left: 10%;
+    margin-left: 8.5%;
   }
 }
 .footer-section .social-buttons .fa {
