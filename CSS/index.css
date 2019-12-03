@@ -267,7 +267,7 @@ header .header-section img {
   .footer-section .social-buttons {
     display: flex;
     flex-direction: row;
-    margin-left: 11%;
+    margin-left: 20%;
   }
 }
 .footer-section .social-buttons .fa {
