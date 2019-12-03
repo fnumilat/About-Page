@@ -275,6 +275,11 @@ header .header-section img {
     margin-left: 9%;
   }
 }
+@media (max-width: 375px) {
+  .footer-section .social-buttons {
+    margin-left: 9%;
+  }
+}
 .footer-section .social-buttons .fa {
   padding: 5px 40px;
   padding-bottom: 20px;
