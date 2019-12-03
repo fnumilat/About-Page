@@ -233,14 +233,14 @@ header .header-section img {
     width: 90%;
   }
 }
-footer {
+.footer-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
   background: #4B00B0;
   width: 100%;
 }
-footer h2 {
+.footer-section h2 {
   width: 50%;
   font-size: 50px;
   padding-top: 1%;
@@ -249,7 +249,7 @@ footer h2 {
   margin-left: 26%;
 }
 @media (max-width: 500px) {
-  footer h2 {
+  .footer-section h2 {
     width: 100%;
     font-size: 40px;
     text-align: center;
@@ -257,20 +257,20 @@ footer h2 {
     margin-top: 2%;
   }
 }
-footer .social-buttons {
+.footer-section .social-buttons {
   display: flex;
   flex-direction: row;
   margin-left: 23.5%;
 }
 @media (max-width: 500px) {
-  footer .social-buttons {
+  .footer-section .social-buttons {
     display: flex;
     flex-direction: row;
     width: 100%;
     margin-left: 1%;
   }
 }
-footer .social-buttons .fa {
+.footer-section .social-buttons .fa {
   padding: 10px 80px;
   color: #FFFFFF;
   font-size: 50px;
@@ -279,13 +279,13 @@ footer .social-buttons .fa {
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  footer .social-buttons .fa {
+  .footer-section .social-buttons .fa {
     font-size: 40px;
     padding: 10px 30px;
     padding-top: 4%;
   }
 }
-footer .social-buttons .fa :hover {
+.footer-section .social-buttons .fa :hover {
   opacity: 1;
   color: #00E01C;
 }
