@@ -168,7 +168,7 @@ header {
   width: 100%;
   margin-bottom: 2%;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   header {
     display: flex;
     flex-direction: column;
@@ -183,7 +183,7 @@ header .header-section {
   padding-bottom: 1%;
   padding-top: 1%;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   header .header-section {
     display: flex;
     flex-direction: column-reverse;
@@ -197,7 +197,7 @@ header .header-section h2 {
   font-size: 100px;
   color: #FFFFFF;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   header .header-section h2 {
     width: 100%;
     font-size: 50px;
@@ -211,7 +211,7 @@ header .header-section img {
   border-radius: 300px;
   margin-left: 2%;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   header .header-section img {
     width: 60%;
     margin-left: 20%;
@@ -229,7 +229,7 @@ header .header-section img {
   font-size: 20px;
   text-align: center;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   .main-body p {
     width: 90%;
   }
@@ -249,7 +249,7 @@ header .header-section img {
   color: #FFFFFF;
   margin-left: 26%;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   .footer-section h2 {
     width: 100%;
     font-size: 30px;
@@ -263,7 +263,7 @@ header .header-section img {
   flex-direction: row;
   margin-left: 37%;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   .footer-section .social-buttons {
     display: flex;
     flex-direction: row;
@@ -279,7 +279,7 @@ header .header-section img {
   text-align: center;
   text-decoration: none;
 }
-@media (max-width: 373px) {
+@media (max-width: 500px) {
   .footer-section .social-buttons .fa {
     font-size: 30px;
     padding: 10px 15px;
