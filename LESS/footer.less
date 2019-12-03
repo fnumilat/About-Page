@@ -1,5 +1,5 @@
 
-footer {
+.footer-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,17 +9,17 @@ footer {
     h2 {
         width: 50%;
         font-size: 50px;
-        padding-top: 2%;
+        padding-top: 1%;
         padding-bottom: 2%;
         color: @white;
         margin-left: 26%;
 
         @media @mobile {
             width: 100%;
-            font-size: 40px;
+            font-size: 30px;
             text-align: center;
             margin-left: 0%;
-            background: red;
+            // background: red;
             // border-radius: 10px;
             margin-top: 2%;
         }
@@ -28,41 +28,46 @@ footer {
     .social-buttons {
         display: flex;
         flex-direction: row;
-        margin-left: -5%;
+        margin-left: 37%;
 
         @media @mobile {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-            margin-left: -16%;
+            // flex-wrap: wrap;
+            // width: 100%;
+            margin-left: 18%;
+        }
+
+        @media @samsung {
+            margin-left: 9%;
+        }
+
+        @media @iphone {
+            margin-left: 9%;
         }
 
         .fa {
-            padding: 30px 150px;
+            padding: 5px 40px;
+            padding-bottom: 20px;
+            padding-left: 5px;
             color: @white;
             font-size: 50px;
-            width: 50px;
+            // width: 100%;
             text-align: center;
             text-decoration: none;
 
             @media @mobile {
-                font-size: 40px;
-                padding: 20px 110px;
+                font-size: 30px;
+                padding: 10px 15px;
+                padding-top: 4%;
             }
 
             :hover {
                 opacity: 1;
                 color: @lightgreen;
-              }
-
-        }
-
-        .fa-youtube {
-
-            @media @mobile {
-                margin-left: 20%;
             }
+
         }
+
     }
 }
