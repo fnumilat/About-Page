@@ -267,7 +267,13 @@ header .header-section img {
   .footer-section .social-buttons {
     display: flex;
     flex-direction: row;
-    margin-left: 20%;
+    width: 100%;
+    margin-left: 18%;
+  }
+}
+@media (max-width: 373px) {
+  .footer-section .social-buttons {
+    margin-left: 10%;
   }
 }
 .footer-section .social-buttons .fa {
