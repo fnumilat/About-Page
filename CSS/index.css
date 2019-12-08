@@ -179,7 +179,7 @@ header .header-section {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  background: #391616;
+  background: #725D00;
   padding-bottom: 1%;
   padding-top: 1%;
 }
@@ -203,6 +203,7 @@ header .header-section h2 {
     font-size: 50px;
     margin-left: -1%;
     margin-top: 2%;
+    margin-bottom: 2%;
     text-align: center;
   }
 }
@@ -232,6 +233,8 @@ header .header-section img {
 @media (max-width: 500px) {
   .main-body p {
     width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 }
 .footer-section {
