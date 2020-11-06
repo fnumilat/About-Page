@@ -1,2 +1,2 @@
 # About-Page
-This page is giving basic information about Fnu Milat
+Created this web-page to provide some personal information about myself.
